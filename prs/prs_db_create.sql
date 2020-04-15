@@ -97,7 +97,7 @@ Values ( 3, 'TG-45069', 'Target', '7644 Voice of America Centre Dr', 'West Chest
 
 -- Insert Request
 Insert Request (ID, UserID, Description, Justification, DateNeeded, DeliveryMode, Status, Total, SubmittedDate, ReasonForRejection) 
-Values ( 1 , 1 , 'Computer', 'Now Employee hired - needs computer', '2020-03-25','Pick up at Store', 'Order placed', 1545.62, '2020-03-22 09:15:07', 'None');
+Values ( 1 , 1 , 'Computer', 'Now Employee hired - needs computer', '2020-03-25','Pick up at Store', 'Order placed', 1545.62, '2020-03-23 09:15:07', 'None');
 
 
 -- Insert Product
