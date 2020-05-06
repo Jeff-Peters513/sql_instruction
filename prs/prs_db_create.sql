@@ -74,7 +74,7 @@ create table Vendor (
 
 -- insert User info
 Insert User (ID, UserName, Password, FirstName, LastName, PhoneNumber, Email, IsReviewer, IsAdmin) 
-Values (1, 'JPeters', 'jp1001', 'Jeff', 'Peters', '513-305-1268', 'PetersJeff288@gmail.com', 1, 1) ;
+Values (1, 'JPeters', 'jp1001', 'Jeff', 'Peters', '513-305-1268', 'PetersJeff288@gmail.com', 1, 1);
 Insert User (ID, UserName, Password, FirstName, LastName, PhoneNumber, Email, IsReviewer, IsAdmin) 
 Values (2, 'SBlessing', 'sb1002', 'Sean', 'Blessing', '513-600-7096', 'SeanBlessing@gmail.com', 1, 0);
 Insert User (ID, UserName, Password, FirstName, LastName, PhoneNumber, Email, IsReviewer, IsAdmin) 

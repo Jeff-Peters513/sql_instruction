@@ -81,8 +81,10 @@ CONSTRAINT req_pdt unique (RequestID, ProductID)
 insert into user (ID, UserName, Password, FirstName, LastName, PhoneNumber, Email, IsReviewer, IsAdmin) VALUES
 	(1, 'SYSTEM', 'xxxxx', 'System', 'System', 'XXX-XXX-XXXX', 'system@test.com', 0, 0),
 	(2, 'sblessing', 'login', 'Sean', 'Blessing', 'XXX-XXX-XXXX', 'system@test.com', 1, 1);
+Insert User (ID, UserName, Password, FirstName, LastName, PhoneNumber, Email, IsReviewer, IsAdmin) 
+Values (3, 'JPeters', 'jp1001', 'Jeff', 'Peters', '513-305-1268', 'PetersJeff288@gmail.com', 1, 1);
 
--- insert some rows into the Vendor table
+-- insert some moviegenrerows into the Vendor table
 INSERT into vendor (ID, code, name, address, city, state, zip, phonenumber, email) VALUES
 (1, 'BB-1001', 'Best Buy', '100 Best Buy Street', 'Louisville', 'KY', '40207', '502-111-9099', 'geeksquad@bestbuy.com'),
 (2, 'AP-1001', 'Apple Inc', '1 Infinite Loop', 'Cupertino', 'CA', '95014', '800-123-4567', 'genius@apple.com'),
